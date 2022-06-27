@@ -1,0 +1,74 @@
+/* MEDIA QUERIES */
+@media(max-width:580px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 40%;
+        margin: 20px 30%;
+    }
+
+    video {
+        height: 80vh;
+    }
+
+    .slideshow h2 {
+        width: 80%;
+        font-size: 30px;
+        margin-top: 55%;
+    }
+
+    audio {
+        display: none;
+    }
+
+    .zoom {
+        display: none;
+    }
+
+    .seta img {
+        visibility: hidden;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 30%;
+    }
+
+    form button {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    input,
+    textarea {
+        margin: 10px 0px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer a {
+        margin: 10px;
+    }
+
+    footer .icones {
+        justify-content: center;
+        margin: 20px;
+
+    }
+
+    .slideshow h3{
+        width: 10%;
+    }
+
+}
